@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>제목추가</title>
 <script type="text/javascript">
 	<c:if test="${empty loginchk == '1'}">
 		alert("로그인 성공");
@@ -13,6 +13,7 @@
 </script>
 </head>
 <body>
+	<h1>Push 되나 확인</h1>
 	<h1>Non-Annotation</h1>
 	<h2><a href="/start1">start1</a></h2>
 	<h2><a href="/start2">start2</a></h2>
